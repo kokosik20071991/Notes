@@ -16,7 +16,7 @@ def menu():
 def check_len_text_input(text, n):
     while len(text) <= n:
         print(f'Текст должен быть больше {n} символов\n')
-        text = input('Введите тескт заметки: ')
+        text = input('Введите текст заметки: ')
     else:
         return text
 
